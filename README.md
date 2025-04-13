@@ -122,14 +122,14 @@ MODEL_PATH=Skywork/Skywork-OR1-32B-Preview \
 DATA_PATH=or1_data/eval/aime24.parquet \
 SAMPLES=32 \
 TASK_NAME=Aime24_Avg$SAMPLES-Skywork_OR1_Math_7B \
-bash ./or1_scripts/eval/eval_32b.sh
+bash ./or1_script/eval/eval_32b.sh
 
 # Evalation AIME25
 MODEL_PATH=Skywork/Skywork-OR1-Math-7B \
 DATA_PATH=or1_data/eval/aime25.parquet \
 SAMPLES=32 \
 TASK_NAME=Aime25_Avg$SAMPLES-Skywork_OR1_Math_7B \
-bash ./or1_scripts/eval/eval_7b.sh
+bash ./or1_script/eval/eval_7b.sh
 ```
 
 #### LiveCodeBench
@@ -147,7 +147,7 @@ MODEL_PATH=Skywork/Skywork-OR1-Math-7B \
 DATA_PATH=or1_data/eval/livecodebench/livecodebench_2408_2502.parquet \
 SAMPLES=4 \
 TASK_NAME=LiveCodeBench_Avg$SAMPLES-Skywork_OR1_Math_7B \
-bash ./or1_scripts/eval/eval_7b.sh
+bash ./or1_script/eval/eval_7b.sh
 ```
 
 ## 📄 Technical Report
