@@ -155,7 +155,7 @@ If the controller process wants to generate sequences, it has to call
        output_dp_lst.append(output_future)
    output = torch.cat(ray.get(output_dp_lst), dim=0)
 
-We observe that controll process calling worker group methods in general can be divided into 3 parts:
+We observe that control process calling worker group methods in general can be divided into 3 parts:
 
 - Split the data into data parallel sizes
 - Dispatch the corresponding data into each worker
