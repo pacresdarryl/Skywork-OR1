@@ -63,8 +63,8 @@ if __name__ == '__main__':
     for key in dataset:
         data_list.extend([item for item in dataset[key]])
 
-    math_data_list = [item for item in data_list if item['task_type'] == 'math']
-    code_data_list = [item for item in data_list if item['task_type'] == 'code']
+    math_data_list = [item for item in data_list if item['ability'] == 'math']
+    code_data_list = [item for item in data_list if item['ability'] == 'code']
     
     local_dir = args.local_dir
     hdfs_dir = args.hdfs_dir
