@@ -107,12 +107,27 @@ pip3 install -e .
 
 Training scripts are currently being organized and will be available in 1-2 days. Please stay tuned.
 
+### Training Data Preparation
+
+To prepare the training data, we provide a script to download the data from Hugging Face and filter the problems based on the difficulty level with respect to a particular model (i.e., DeepSeek-R1-Distill-Qwen-{1.5,7,32}B).
+
+```bash
+model_size=32b  # 1p5b, 7b
+python ./or1_scripts/data_preprocess/download_and_filter_data_${model_size}.py --local_dir ./or1_data/train/skywork_orz_rl_data_${model_size}
+```
+
+This will generate the training data in the following format:
+
+```bash
+./skywork_data/Skywork-OR1-RL-Data/train_${model_size}_math.pkl
+./skywork_data/Skywork-OR1-RL-Data/train_${model_size}_code.pkl
+```
 
 ### Evaluation ⚖️
 
 We provide evaluation scripts to reproduce the results of the `Skywork-OR1-Series`.
 
-#### Data Preparation
+#### Evaluation Data Preparation
 
 Evaluation data for AIME24 and AIME25 is already available in our GitHub repository.
 
