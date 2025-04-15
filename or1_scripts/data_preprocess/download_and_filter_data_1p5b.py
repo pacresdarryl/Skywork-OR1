@@ -26,7 +26,7 @@ import pickle
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--local_dir', default='./skywrok_data/Skywork-OR1-RL-Data')
+    parser.add_argument('--local_dir', default='./or1_data/train')
     parser.add_argument('--hdfs_dir', default=None)
 
     args = parser.parse_args()
@@ -62,12 +62,17 @@ if __name__ == '__main__':
     data_list = []
     for key in dataset:
         data_list.extend([item for item in dataset[key]])
+
+    math_data_list = [item for item in data_list if item['ability'] == 'math']
+    code_data_list = [item for item in data_list if item['ability'] == 'code']
     
     local_dir = args.local_dir
     hdfs_dir = args.hdfs_dir
     os.makedirs(local_dir, exist_ok=True)
-    with open(os.path.join(local_dir, 'train_1p5b.pkl'), 'wb') as f:
-        pickle.dump(data_list, f)
+    with open(os.path.join(local_dir, 'train_1p5b_math.pkl'), 'wb') as f:
+        pickle.dump(math_data_list, f)
+    with open(os.path.join(local_dir, 'train_1p5b_code.pkl'), 'wb') as f:
+        pickle.dump(code_data_list, f)
 
     if hdfs_dir is not None:
         makedirs(hdfs_dir)
