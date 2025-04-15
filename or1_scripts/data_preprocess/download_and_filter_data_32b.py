@@ -26,7 +26,7 @@ import pickle
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--local_dir', default='./skywork_data/Skywork-OR1-RL-Data')
+    parser.add_argument('--local_dir', default='./or1_data/train')
     parser.add_argument('--hdfs_dir', default=None)
 
     args = parser.parse_args()

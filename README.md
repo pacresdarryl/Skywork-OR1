@@ -113,14 +113,14 @@ To prepare the training data, we provide a script to download the data from Hugg
 
 ```bash
 model_size=32b  # 1p5b, 7b
-python ./or1_scripts/data_preprocess/download_and_filter_data_${model_size}.py --local_dir ./or1_data/train/skywork_orz_rl_data_${model_size}
+python ./or1_scripts/data_preprocess/download_and_filter_data_${model_size}.py --local_dir ./or1_data/train
 ```
 
 This will generate the training data in the following format:
 
 ```bash
-./skywork_data/Skywork-OR1-RL-Data/train_${model_size}_math.pkl
-./skywork_data/Skywork-OR1-RL-Data/train_${model_size}_code.pkl
+./or1_data/train/train_${model_size}_math.pkl
+./or1_data/train/train_${model_size}_code.pkl
 ```
 
 ### Evaluation ⚖️
@@ -141,6 +141,7 @@ mv ./or1_data/eval/livecodebench/livecodebench/* ./or1_data/eval/livecodebench/
 ```
 
 #### Evaluation Start
+
 ```bash
 bash ./or1_scripts/eval/eval_7b.sh
 
@@ -148,7 +149,6 @@ bash ./or1_scripts/eval/eval_32b.sh
 ```
 
 The evaluation results will be automatically saved to [outputs/evalation/pass.csv](outputs/evalation/pass.csv)
-
 
 ## 📄 Technical Report
 
