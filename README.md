@@ -150,7 +150,7 @@ We will update the citation once the technical report is released. In the meanti
 
 ```bibtex
 @misc{skywork-or1-2025,
-  title={Skywork Open Reaonser Series},
+  title={Skywork Open Reasoner Series},
   author = {He, Jujie and Liu, Jiacai and Liu, Chris Yuhao and Yan, Rui and Wang, Chaojie and Cheng, Peng and Zhang, Xiaoyu and Zhang, Fuxiang and Xu, Jiacheng and Shen, Wei and Li, Siyuan and Zeng, Liang and Wei, Tianwen and Cheng, Cheng and An, Bo and Liu, Yang and Zhou, Yahui},
   howpublished={\url{https://capricious-hydrogen-41c.notion.site/Skywork-Open-Reaonser-Series-1d0bc9ae823a80459b46c149e4f51680}},
   note={Notion Blog},
